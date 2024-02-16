@@ -204,32 +204,7 @@ ul.nav li a:hover {
 
 }
 
-/* .bg {
-  display: flex;
-  height: 800px;
-margin-bottom: 20px;
-  justify-content: space-around;
-  padding: 8%;
 
-
-} */
-
-
-
-
-/* .size {
-   width:400px; 
-  font-size: 20px;
-
-
-
-}
-
-.hear {
-  font-weight: bolder;
-  font-size: 40px;
-
-} */
 .card-text{
   font-size: 20px;
 }
@@ -274,9 +249,9 @@ margin-bottom: 20px;
 .ee{
   
   width:400px;
-  height: 80px;
+  
   margin: 10px;
-   
+   padding: 2%;
    outline: black;
   border: 5px solid rgba(165, 42, 42, 0.947);
   background-color:transparent;
@@ -289,9 +264,10 @@ margin-bottom: 20px;
 
 .setting {
   align-items: center;
+  justify-content: center;
   
-  margin-top: 70px;
   height: 600px;
+  padding: 10%;
 }
 
 .text-center {
@@ -365,10 +341,20 @@ margin-bottom: 20px;
 
      .rid{
     
-      padding:2%;
+      padding:3%;
       box-sizing: border-box;
       display: block;
       align-items: center;
+      align-items: center;
+    }
+       
+
+           .setting{
+            box-sizing: border-box;
+            display: block;
+            padding: 5%;
+            align-items: center;
+           }
     }
     .setting {
       text-align: center;
@@ -377,7 +363,7 @@ margin-bottom: 20px;
       padding: 2%;
     }
       
-  }
+  
 
   
   .row {
